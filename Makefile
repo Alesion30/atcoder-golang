@@ -1,4 +1,4 @@
-FILE_PATH := ./224/a.go
+FILE_PATH := ./ABC224/a.go
 
 build:
 	go build -buildmode=exe -o ./a.out $(FILE_PATH)
