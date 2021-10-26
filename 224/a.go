@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Scan(&S)
 
-	if strings.Contains(S, "er") {
+	if strings.HasSuffix(S, "er") {
 		fmt.Println("er")
 	} else {
 		fmt.Println("ist")
